@@ -105,6 +105,10 @@ const ShortcutTemplate xfwm4_shortcut_values[] = {
   { N_("Add adjacent workspace"), "add_adjacent_workspace_key" },
   { N_("Delete last workspace"), "del_workspace_key" },
   { N_("Delete active workspace"), "del_active_workspace_key" },
+  { N_("Focus window up"), "focus_up_key", NULL },
+  { N_("Focus window left"), "focus_left_key", NULL },
+  { N_("Focus window down"), "focus_down_key", NULL },
+  { N_("Focus window right"), "focus_right_key", NULL },
   { NULL, NULL }
 };
 
